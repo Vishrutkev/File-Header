@@ -19,13 +19,15 @@ This repository contains a secure file management application that implements OT
 
 -- Set up the required SQL database with the necessary tables and configurations as below:
 
+               fhproject (database):
+              
                                 +---------------------+
                                 | Tables_in_fhproject |
                                 +---------------------+
                                 | data                |
                                 | users               |
                                 +---------------------+
-               data:
+               data (table):
               
             +----------+--------------+------+-----+---------+----------------+
             | Field    | Type         | Null | Key | Default | Extra          |
@@ -37,7 +39,7 @@ This repository contains a secure file management application that implements OT
             | bin_data | blob         | YES  |     | NULL    |                |
             +----------+--------------+------+-----+---------+----------------+
             
-               users:
+               users (table):
               
             +-------+--------------+------+-----+---------+----------------+
             | Field | Type         | Null | Key | Default | Extra          |
