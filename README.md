@@ -13,12 +13,37 @@ This repository contains a secure file management application that implements OT
 
 --Introduced an innovative feature that allows for rapid recovery of hidden files, enhancing user convenience and file management capabilities.
 
-
 ## How to Use
 
 -- Clone the repository to your local machine.
 
--- Set up the required SQL database with the necessary tables and configurations.
+-- Set up the required SQL database with the necessary tables and configurations as below:
+                                +---------------------+
+                                | Tables_in_fhproject |
+                                +---------------------+
+                                | data                |
+                                | users               |
+                                +---------------------+
+
+            +----------+--------------+------+-----+---------+----------------+
+            | Field    | Type         | Null | Key | Default | Extra          |
+            +----------+--------------+------+-----+---------+----------------+
+            | id       | int          | NO   | PRI | NULL    | auto_increment |
+            | name     | varchar(100) | YES  |     | NULL    |                |
+            | path     | varchar(255) | YES  |     | NULL    |                |
+            | email    | varchar(100) | YES  |     | NULL    |                |
+            | bin_data | blob         | YES  |     | NULL    |                |
+            +----------+--------------+------+-----+---------+----------------+
+            
+
+            +-------+--------------+------+-----+---------+----------------+
+            | Field | Type         | Null | Key | Default | Extra          |
+            +-------+--------------+------+-----+---------+----------------+
+            | id    | int          | NO   | PRI | NULL    | auto_increment |
+            | name  | varchar(100) | YES  |     | NULL    |                |
+            | email | varchar(100) | YES  | UNI | NULL    |                |
+            +-------+--------------+------+-----+---------+----------------+
+
 
 -- Configure the Java application to connect to the SQL database.
 
