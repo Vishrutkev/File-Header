@@ -25,7 +25,8 @@ This repository contains a secure file management application that implements OT
                                 | data                |
                                 | users               |
                                 +---------------------+
-
+              ## data
+              
             +----------+--------------+------+-----+---------+----------------+
             | Field    | Type         | Null | Key | Default | Extra          |
             +----------+--------------+------+-----+---------+----------------+
@@ -36,7 +37,8 @@ This repository contains a secure file management application that implements OT
             | bin_data | blob         | YES  |     | NULL    |                |
             +----------+--------------+------+-----+---------+----------------+
             
-
+              ## users
+              
             +-------+--------------+------+-----+---------+----------------+
             | Field | Type         | Null | Key | Default | Extra          |
             +-------+--------------+------+-----+---------+----------------+
