@@ -18,6 +18,7 @@ This repository contains a secure file management application that implements OT
 -- Clone the repository to your local machine.
 
 -- Set up the required SQL database with the necessary tables and configurations as below:
+
                                 +---------------------+
                                 | Tables_in_fhproject |
                                 +---------------------+
