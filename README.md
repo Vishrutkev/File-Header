@@ -1,5 +1,4 @@
-# Secure File with OTP Authentication
-
+# File Hider App
 
 This repository contains a secure file management application that implements OTP (One-Time Password) authentication for enhanced data protection. The app ensures secure login and registration processes, establishes an SQL database to store user credentials, and utilizes the File class in Java to hide files within the database.
 
